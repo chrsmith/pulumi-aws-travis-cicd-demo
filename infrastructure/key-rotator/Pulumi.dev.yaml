@@ -1,0 +1,5 @@
+config:
+  aws-access-key-rotator:rate: rate(1 hour)
+  aws-access-key-rotator:travis-ci-token:
+    secure: AAABABBpNBzAO9ickrWTfKaMqW8rwC33pIskMVL7qOm5d0jXAG10dJNnBIFRvPNgwASg4ysD
+  aws:region: us-west-2

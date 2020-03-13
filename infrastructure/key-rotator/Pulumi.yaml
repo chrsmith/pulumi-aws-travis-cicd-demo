@@ -1,0 +1,3 @@
+name: aws-access-key-rotator
+runtime: nodejs
+description: Fully automated solution for rotating an AWS access keys.

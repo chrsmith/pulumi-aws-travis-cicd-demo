@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "es5",
+        "lib": [
+            "es5"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": true
+    },
+    "files": [
+        "index.ts",
+        "iam-key-rotator.ts",
+        "credentia-pusher.ts",
+        "credential-pusher-travis.ts",
+        "user-and-group.ts"
+    ]
+}
